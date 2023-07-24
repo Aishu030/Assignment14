@@ -1,0 +1,30 @@
+Bubble Sort:
+
+Time Complexity: O(n^2) in the worst and average cases, O(n) in the best case (when already sorted).
+Explanation: Bubble Sort compares and swaps elements multiple times until the entire array is sorted. It has to go through all elements, making it inefficient for large arrays.
+
+Insertion Sort:
+
+Time Complexity: O(n^2) in the worst and average cases, O(n) in the best case (when already sorted).
+Explanation: Insertion Sort picks elements one by one and inserts them into their correct positions within the already sorted part of the array. It also takes multiple passes to sort the array, making it less efficient for large datasets.
+
+
+Bubble Sort:
+
+Advantages:
+1.Simple to understand and implement.
+2.Works well for small or nearly sorted arrays.
+
+Disadvantages:
+1.Inefficient for large arrays due to the slow O(n^2) time complexity.
+2.Not practical for real-world use when dealing with significant amounts of data.
+
+Insertion Sort:
+
+Advantages:
+1.Easy to understand and implement.
+2.Efficient for small arrays or partially sorted data.
+
+Disadvantages:
+1.Inefficient for large arrays due to the slow O(n^2) time complexity.
+2.Slower than more advanced sorting algorithms on larger datasets.
